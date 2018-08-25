@@ -4,11 +4,11 @@ var should = require('chai').should()
   , fs = require('fs')
   , path = require('path')
   , Logger = require('../index')
-  , Datastore = new require('pwDB')
+  , Datastore = new require('pwdb')
   , db
   ;
   
-describe('pwDB Logger', function () {
+describe('pwdb Logger', function () {
 
   beforeEach(function() {
     if (fs.existsSync(testDb)) { fs.unlinkSync(testDb); }
