@@ -1,0 +1,34 @@
+{
+  "name": "pwlogger",
+  "version": "0.5.1",
+  "author": {
+    "name": "Brian Carter",
+    "email": "briancarter@chipsofttech.com"
+  },
+  "contributors": [
+    "Brian Carter"
+  ],
+  "description": "Logger outputting messages to a file in a pwDB-readable format with minimal memory footprint",
+  "keywords": [
+    "logger",
+    "pwDB"
+  ],
+  "homepage": "https://github.com/Pond-Water/pwLogger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pond-Water/pwLogger.git"
+  },
+  "dependencies": {
+    "pwdb": "^2.x.x",
+    "mkdirp": "^0.5.x"
+  },
+  "devDependencies": {
+    "chai": "^4.0.x",
+    "mocha": "^5.0.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "main": "index",
+  "license": "SEE LICENSE IN LICENSE"
+}
